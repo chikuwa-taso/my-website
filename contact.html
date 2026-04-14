@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ — 昭和美術印刷株式会社</title>
+  <meta name="description" content="昭和美術印刷株式会社へのお問い合わせ。印刷のご相談、お見積もり、採用に関するお問い合わせはこちらから。TEL: 0776-53-5353">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="お問い合わせ — 昭和美術印刷株式会社">
+  <meta property="og:url" content="https://www.showa-art.co.jp/contact.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Noto+Sans+JP:wght@300;400&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="index.html" class="logo">
+      <span class="logo-en">SHOWA ART PRINTING</span>
+      <span class="logo-jp">昭和美術印刷株式会社</span>
+    </a>
+    <nav class="nav">
+      <a href="services.html">Services</a>
+      <a href="company.html">About</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-nav" id="mobileNav" aria-label="モバイルナビゲーション">
+    <a href="services.html">Services</a>
+    <a href="company.html">About</a>
+    <a href="careers.html">Careers</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-hero-en fade-in">Contact</h1>
+        <p class="page-hero-jp fade-in delay-1">お問い合わせ</p>
+      </div>
+    </section>
+
+    <!-- Tel Section -->
+    <section class="contact-tel-section section">
+      <div class="container">
+        <span class="section-label fade-in">Phone</span>
+        <a href="tel:0776535353" class="contact-tel-number fade-in delay-1">0776-53-5353</a>
+        <p class="contact-tel-note fade-in delay-2">平日 8:30〜17:30（土日・祝休み）</p>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="contact-form-section section">
+      <div class="container">
+        <span class="section-label fade-in">Form</span>
+        <h2 class="section-title fade-in delay-1">お問い合わせフォーム</h2>
+
+        <form class="form fade-in delay-2" id="contactForm" action="#" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="name">
+              Name <span class="required">必須</span>
+            </label>
+            <input
+              class="form-input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="山田 太郎"
+              autocomplete="name"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="company">
+              Company
+            </label>
+            <input
+              class="form-input"
+              type="text"
+              id="company"
+              name="company"
+              placeholder="株式会社〇〇"
+              autocomplete="organization"
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">
+              Email <span class="required">必須</span>
+            </label>
+            <input
+              class="form-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@mail.com"
+              autocomplete="email"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="tel">
+              Phone
+            </label>
+            <input
+              class="form-input"
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="000-0000-0000"
+              autocomplete="tel"
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">
+              Message <span class="required">必須</span>
+            </label>
+            <textarea
+              class="form-textarea"
+              id="message"
+              name="message"
+              placeholder="お問い合わせ内容をご記入ください。"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-outline-dark">送信する</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="contact-map-section section" style="border-top: 1px solid var(--color-border);">
+      <div class="container">
+        <span class="section-label fade-in">Access</span>
+        <h2 class="section-title fade-in delay-1">アクセス</h2>
+
+        <div class="map-wrapper fade-in delay-2">
+          <div class="map-placeholder">
+            <span>Google Map</span>
+          </div>
+          <p class="map-address">
+            昭和美術印刷株式会社 本社<br>
+            〒910-0822　福井県福井市玄正島 8-23-1<br>
+            TEL: 0776-53-5353<br>
+            平日 8:30〜17:30（土日・祝休み）
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <span class="footer-logo-en">SHOWA ART PRINTING</span>
+        <p class="footer-address">
+          昭和美術印刷株式会社<br>
+          〒910-0822 福井県福井市玄正島 8-23-1<br>
+          TEL: 0776-53-5353
+        </p>
+      </div>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="services.html">Services</a>
+        <a href="company.html">About</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <p class="footer-copy">&copy; 2025 Showa Art Printing Co., Ltd. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
