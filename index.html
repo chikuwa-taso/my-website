@@ -63,7 +63,18 @@
 
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-inner">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-title">
+          <span class="hero-title-line">SHOWA</span>
+          <span class="hero-title-line">ART</span>
+          <span class="hero-title-line">PRINTING</span>
+        </div>
+        <div class="hero-side">
+          <span class="hero-jp-vertical">昭和美術印刷</span>
+        </div>
+      </div>
+      <div class="hero-meta">
         <p class="hero-catch">記憶に残る、印刷を。</p>
         <p class="hero-since">Since 1971 &mdash; Fukui, Japan</p>
       </div>
@@ -76,15 +87,29 @@
     <!-- Philosophy -->
     <section class="philosophy">
       <div class="container">
-        <div class="philosophy-inner">
-          <span class="section-label fade-in">Philosophy</span>
-          <p class="philosophy-text fade-in delay-1">
-            かつての印刷は、手の感覚がすべてだった。<br>
-            いまの印刷は、数値とロジックが支えている。<br>
-            けれど、どちらかだけでは届かない美しさがある。<br>
-            昭和美術印刷は、職人の目と、最新の技術で、<br>
-            &ldquo;この一枚&rdquo;に、時代を超える誠実さを込めます。
-          </p>
+        <div class="philosophy-layout">
+
+          <!-- Body text: each span = one vertical column, reading right→left -->
+          <div class="philosophy-body-wrap fade-in">
+            <span class="philo-col">かつての印刷は、</span>
+            <span class="philo-col">手の感覚がすべてだった。</span>
+            <span class="philo-col">いまの印刷は、</span>
+            <span class="philo-col">数値とロジックが支えている。</span>
+            <span class="philo-col">けれど、どちらかだけでは届かない美しさがある。</span>
+            <span class="philo-col">昭和美術印刷は、職人の目と、最新の技術で、</span>
+            <span class="philo-col">&ldquo;この一枚&rdquo;に、時代を超える誠実さを込めます。</span>
+            <span class="philo-col">印刷の技術のショーワ。</span>
+            <span class="philo-col">福井から、</span>
+            <span class="philo-col">日本の「いい印刷」を支えます。</span>
+          </div>
+
+          <!-- Large display title: 3 columns reading right→left -->
+          <div class="philosophy-title-wrap fade-in delay-1">
+            <span class="philosophy-title-col">印刷の</span>
+            <span class="philosophy-title-col">美術の</span>
+            <span class="philosophy-title-col">ショーワ</span>
+          </div>
+
         </div>
       </div>
     </section>
@@ -98,6 +123,7 @@
         <div class="services-grid">
           <!-- Card 1 -->
           <div class="service-card fade-in">
+            <div class="service-card-accent" style="background: linear-gradient(90deg, #4A9ED8, #2B72B0)"></div>
             <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="24" cy="30" r="10"/>
               <line x1="4" y1="30" x2="14" y2="30"/>
@@ -110,6 +136,7 @@
           </div>
           <!-- Card 2 -->
           <div class="service-card fade-in delay-1">
+            <div class="service-card-accent" style="background: linear-gradient(90deg, #F0A020, #D4720C)"></div>
             <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <rect x="10" y="6" width="24" height="32" rx="1"/>
               <rect x="14" y="10" width="24" height="32" rx="1"/>
@@ -122,6 +149,7 @@
           </div>
           <!-- Card 3 -->
           <div class="service-card fade-in delay-2">
+            <div class="service-card-accent" style="background: linear-gradient(90deg, #E03870, #B8205A)"></div>
             <svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <rect x="6" y="8" width="36" height="32" rx="1"/>
               <line x1="16" y1="8" x2="16" y2="40"/>
